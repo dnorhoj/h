@@ -9,7 +9,7 @@ function hhhhh() {
 		hh.value = hhh
 	} else {
 		var hhh = hhhhhhhh(h.value)
-		hhh = binaryToString(hhh);
+		hhh = hhhhhhhh(hhh);
 		hh.value = hhh
 	}
 }
