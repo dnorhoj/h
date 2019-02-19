@@ -4,11 +4,11 @@ function hhhhh() {
 	var hhh = document.getElementById('hhh');
 
 	if(hhh.value === 'h') {
-		var hhh = stringToBinary(h.value);
+		var hhh = hhhhhhh(h.value);
 		hhh = hhhh(hhh)
 		hh.value = hhh
 	} else {
-		var hhh = hhhhhh(h.value)
+		var hhh = hhhhhhhh(h.value)
 		hhh = binaryToString(hhh);
 		hh.value = hhh
 	}
