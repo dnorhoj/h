@@ -6,13 +6,27 @@
 	<title>H</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="convert.js" type="text/javascript"></script>
 </head>
 <body>
-	<h1>HTranslator</h1>
-	<textarea id="h" placeholder="H"></textarea>
-	<textarea id="hh" placeholder="H"></textarea>
-	<select id="hhh">
-		<option value="volvo">Volvo</option>
-	</select>
+	<div class="container-fluid">
+		<h1>HTranslator</h1>
+		<div class="row">
+			<div class="form-group col-md-6">
+				<textarea class="form-control" id="h" placeholder="H"></textarea>
+				<h2 style="display:inline;">↓↓↓↓</h2>
+				<textarea class="form-control" id="hh" placeholder="H"></textarea><br/>
+				<select class="form-control" id="hhh">
+					<option value="h">Text to H</option>
+					<option value="hh">H to Text</option>
+				</select>
+				<br/>
+				<div class="form-check">
+					<a class="btn btn-success" onclick="hhhhh()" id="hhhh">H</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
+<script src="script.js" type="text/javascript"></script>
