@@ -1,7 +1,7 @@
 DarkReader.setFetchMethod(window.fetch);
 DarkReader.auto();
 
-document.onload = () => {
+window.onload = () => {
 	let h = document.getElementById('h');
 	let hh = document.getElementById('hh');
 
