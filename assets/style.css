@@ -22,3 +22,11 @@ textarea {
 	border: 0;
 	border-radius: .25rem;
 }
+.card-header {
+	display:inline-block;
+}
+#himg {
+	float:right;
+	display: inline-block;
+	margin-top: -80px;
+}
